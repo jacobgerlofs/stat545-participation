@@ -12,3 +12,7 @@ URL to STAT545 participation repo:
 
 https://github.com/jacobgerlofs/stat545-participation
 
+
+URL to corresponding user account:
+
+https://github.com/jacobgerlofs
