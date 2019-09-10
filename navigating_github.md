@@ -1,9 +1,12 @@
-URL to the STAT454 Homepage repo:
-
-https://github.com/STAT545-UBC/STAT545-home
+#Helpful Links
 
 
-URL to STAT545 corresponding organization account:
+URL to the __STAT454 Homepage__ repo:
+
+[STAT545 Home](https://github.com/STAT545-UBC/STAT545-home)
+
+
+URL to STAT545 _corresponding organization_ account:
 
 https://github.com/STAT545-UBC
 
