@@ -1,0 +1,29 @@
+---
+title: "Tibble Exploration"
+output: ioslides_presentation
+---
+
+```{r load, warning = FALSE, echo = FALSE}
+library(tibble)
+library(gapminder)
+library(DT)
+```
+## print gapminder data:
+
+```{r}
+gapminder
+
+```
+
+
+
+<!--this is a commen-->
+
+## convert mtcars to a tibble, and wrap in data table:
+
+```{r}
+datatable(as_tibble(mtcars))
+```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
