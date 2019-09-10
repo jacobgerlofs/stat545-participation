@@ -1,4 +1,4 @@
-#Helpful Links
+# Helpful Links
 
 
 URL to the __STAT454 Homepage__ repo:
