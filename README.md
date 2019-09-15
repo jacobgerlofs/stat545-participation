@@ -1,1 +1,1 @@
-# stat545-participation
+# STAT545-participation
