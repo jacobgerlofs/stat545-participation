@@ -13,15 +13,16 @@ data_url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/GreatestGivers
 download.file(url = data_url,
               destfile = (here::here("test", "GreatestGivers.xls")))
 
-# download.file(url = data_url,
+download.file(url = data_url,
+              destfile = (here::here("test", "file_name")))
 
 library(readxl)
 
 # Missed a code section before this point, makes this following code void...
 
-# philanthropist <- read_excel(here::here("test", file_name), trim_ws = TRUE)
+philanthropist <- read_excel(here::here("test", file_name), trim_ws = TRUE)
 
-#View(philanthropist)
+View(philanthropist)
 
 
 
