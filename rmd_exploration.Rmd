@@ -13,11 +13,11 @@ library(tibble)
 library(gapminder)
 library(DT)
 ```
+
 ## print gapminder data:
 
 ```{r}
 gapminder
-
 ```
 
 
