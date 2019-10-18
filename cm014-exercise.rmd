@@ -1,7 +1,10 @@
 ---
-title: "cm014 Worksheet: The Model-Fitting Paradigm in R"
-output: html_notebook
-editor_options: 
+title: 'cm014 Worksheet: The Model-Fitting Paradigm in R'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+editor_options:
   chunk_output_type: inline
 ---
 
@@ -140,8 +143,8 @@ predict(my_lm, newdata = gapminder_France2) %>%
 
 Or we can predict on a new dataset:
 ```{r}
-years1 = FILL_THIS_IN
-predict(my_lm,years1)
+#years1 = FILL_THIS_IN
+#predict(my_lm,years1)
 
 ```
 
@@ -179,14 +182,14 @@ ggplot(gapminder_Zimbabwe, aes(year, lifeExp)) +
 
 
 ```{r}
-lm_linear <- lm(data = gapminder,formula = FILL_THIS_IN)
-lm_poly <- lm(data = gapminder,formula = FILL_THIS_IN))
+#lm_linear <- lm(data = gapminder,formula = FILL_THIS_IN)
+#lm_poly <- lm(data = gapminder,formula = FILL_THIS_IN))
 ```
 
 `anova` lets you compare between different models.
 
 ```{r}
-anova(lm_linear,lm_poly)
+#anova(lm_linear,lm_poly)
 ```
 
 ## Regression with categorical variables
