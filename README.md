@@ -4,7 +4,6 @@
 
 Hello there!
 
-----------------
 
 This repo is design to house all files related to in-class participation for STAT545. Each lecture is given its own folder with all files pertaining to that lecture contained within its respective folder.
 
