@@ -98,7 +98,7 @@ How many of the principles did you manage to break?
 ## Plotly demo [10 mins]
 
 ```{r}
-install.packages('plotly')
+#install.packages('plotly')
 library(tidyverse)
 library(plotly)
 library(gapminder)
@@ -119,8 +119,6 @@ gapminder %>%
           
           type = )
 ```
-
-
 
 Did you know that you can make interactive graphs and plots in R using the plotly library? We will show you a demo of what plotly is and why it's useful, and then you can try converting a static ggplot graph into an interactive plotly graph.
 
