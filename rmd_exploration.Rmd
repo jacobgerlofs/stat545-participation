@@ -5,7 +5,7 @@ output:
     toc: true
     number_sections: true
     theme: cerulean
-    
+    keep_md: true
 ---
 
 ```{r load, warning = FALSE, echo = FALSE}
